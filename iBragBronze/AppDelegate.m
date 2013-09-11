@@ -7,10 +7,9 @@
 //
 
 #import "AppDelegate.h"
-
 #import "ViewController.h"
-
 #import "Flurry.h"
+#import "Chartboost.h"
 
 @implementation AppDelegate
 
@@ -19,7 +18,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     [Flurry setCrashReportingEnabled:YES];
-    [Flurry startSession:@"YCHBCZMQJQPS68N42HMS"];
+    [Flurry startSession:@"YCHBCZMQJQPS68N42HMS"]; //bronze
     
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
@@ -49,8 +48,23 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
-	// Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    Chartboost *cb = [Chartboost sharedChartboost];
+    
+    cb.appId = @"522ce73b17ba47ba1d00000b"; //bronze
+    cb.appSignature = @"b1a67bccc3decdada04d14e898c76016baf33b7c"; //bronze
+    
+    // Required for use of delegate methods. See "Advanced Topics" section below.
+    //cb.delegate = self;
+    
+    // Begin a user session. Must not be dependent on user actions or any prior network requests.
+    // Must be called every time your app becomes active.
+    [cb startSession];
+    
+    // Show an interstitial
+    [cb showInterstitial];
+	
 }
+
 
 - (void)applicationWillTerminate:(UIApplication *)application
 {

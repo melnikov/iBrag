@@ -92,65 +92,19 @@
 
 #pragma mark - FB Sharing
 
-- (void)shareViaFacebook
-{
-    AppDelegate *delegate = (AppDelegate*)[[UIApplication sharedApplication] delegate];
-    
-    if (!delegate.session.isOpen)
-    {
-        if (!delegate.session || delegate.session.state != FBSessionStateCreated)
-        {
-            delegate.session = [[FBSession alloc] initWithAppID:nil permissions:[NSArray arrayWithObject:@"publish_stream"] urlSchemeSuffix:nil tokenCacheStrategy:nil];
-        }
-        
-        [delegate.session openWithCompletionHandler:^(FBSession *session, FBSessionState status, NSError *error) {
-            [FBSession setActiveSession:delegate.session];
-            [self postToFacebook];
-        }];
-    }
-    else
-    {
-        [FBSession setActiveSession:delegate.session];
-        [self postToFacebook];
-    }
-}
-
 - (void)postToFacebook
 {
+    NSDictionary* params = @{@"name": @"I just bought Bronze Bragging Rights",
+                             @"caption": @"get one for yourself too",
+                             //@"description": @"get one for yourself too",
+                             @"link": @"https://itunes.apple.com/bogus-link/bronze"
+                             };
     
-    id<FBOpenGraphAction> action = (id<FBOpenGraphAction>)[FBGraphObject graphObject];
-    [action setObject:@"https://apps.notrepro.net/fbsdktoolkit/objectds/book/Snow-Crash.html"forKey:@"book"];
-    
-    FBOpenGraphActionShareDialogParams* params = [[FBOpenGraphActionShareDialogParams alloc]init];
-    params.actionType = @"books.reads";
-    params.action = action;
-    params.previewPropertyName = @"book";
-    
-    // Show the Share dialog if available
-    if(0/*[FBDialogs canPresentShareDialogWithOpenGraphActionParams:params]*/) {
-        
-        [FBDialogs presentShareDialogWithOpenGraphAction:[params action]
-                                              actionType:[params actionType]
-                                     previewPropertyName:[params previewPropertyName]
-                                                 handler:^(FBAppCall *call, NSDictionary *results, NSError *error) {
-                                                     // handle response or error
-                                                 }];
-        
-    }
-    // If the Facebook app isn't available, show the Feed dialog as a fallback
-    else {
-        NSDictionary* params = @{@"name": @"I just bought Bronze Bragging Rights",
-                                 @"caption": @"get one for yourself too",
-                                 //@"description": @"get one for yourself too",
-                                 @"link": @"https://itunes.apple.com/bogus-link/bronze"
-                                 };
-        
-        [FBWebDialogs presentFeedDialogModallyWithSession:nil
-                                               parameters:params
-                                                  handler:^(FBWebDialogResult result, NSURL *resultURL, NSError *error) {
-                                                      // handle response or error
-                                                  }];
-    }
+    [FBWebDialogs presentFeedDialogModallyWithSession:nil
+                                           parameters:params
+                                              handler:^(FBWebDialogResult result, NSURL *resultURL, NSError *error) {
+                                                  // handle response or error
+                                              }];
 }
 
 #pragma mark - MFMailComposeViewControllerDelegate
