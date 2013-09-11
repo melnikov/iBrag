@@ -9,7 +9,7 @@
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.braggingrights.${PRODUCT_NAME:rfc1034identifier}</string>
+	<string>com.braggingrights.bronze</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -31,6 +31,21 @@
 	<key>UIAppFonts</key>
 	<array>
 		<string>helveticaneuecyrthin.ttf</string>
+	</array>
+	<key>FacebookAppID</key>
+	<string>391684824291063</string>
+	<key>FacebookDisplayName</key>
+	<string>Bragging Rights Bronze</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb391684824291063</string>
+			</array>
+			<key>CFBundleURLName</key>
+			<string></string>
+		</dict>
 	</array>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>

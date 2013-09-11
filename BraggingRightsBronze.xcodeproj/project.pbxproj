@@ -24,6 +24,10 @@
 		846F679517E06F1E00CCBAA0 /* blueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 846F679417E06F1E00CCBAA0 /* blueArrow.png */; };
 		8489CA3F17E106F500C215D2 /* helveticaneuecyrthin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8489CA3E17E106F500C215D2 /* helveticaneuecyrthin.ttf */; };
 		8489CA4217E108E800C215D2 /* LabelThin.m in Sources */ = {isa = PBXBuildFile; fileRef = 8489CA4117E108E800C215D2 /* LabelThin.m */; };
+		8489CC2C17E10ED600C215D2 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8489CC2B17E10ED600C215D2 /* FacebookSDK.framework */; };
+		8489CC3417E1224B00C215D2 /* libFlurry_4.2.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8489CC3317E1224B00C215D2 /* libFlurry_4.2.3.a */; };
+		8489CC3617E1226D00C215D2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8489CC3517E1226D00C215D2 /* SystemConfiguration.framework */; };
+		8489CC3817E1227E00C215D2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8489CC3717E1227E00C215D2 /* Security.framework */; };
 		84BB263017E07E5700910AC2 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84BB262F17E07E5700910AC2 /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +55,12 @@
 		8489CA3E17E106F500C215D2 /* helveticaneuecyrthin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = helveticaneuecyrthin.ttf; sourceTree = "<group>"; };
 		8489CA4017E108E800C215D2 /* LabelThin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelThin.h; sourceTree = "<group>"; };
 		8489CA4117E108E800C215D2 /* LabelThin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelThin.m; sourceTree = "<group>"; };
+		8489CA4317E10E3A00C215D2 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		8489CC2B17E10ED600C215D2 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		8489CC3217E1224B00C215D2 /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
+		8489CC3317E1224B00C215D2 /* libFlurry_4.2.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_4.2.3.a; sourceTree = "<group>"; };
+		8489CC3517E1226D00C215D2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8489CC3717E1227E00C215D2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		84BB262F17E07E5700910AC2 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -59,10 +69,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8489CC3817E1227E00C215D2 /* Security.framework in Frameworks */,
+				8489CC3617E1226D00C215D2 /* SystemConfiguration.framework in Frameworks */,
 				84BB263017E07E5700910AC2 /* MessageUI.framework in Frameworks */,
 				846F676C17E064CE00CCBAA0 /* UIKit.framework in Frameworks */,
 				846F676E17E064CE00CCBAA0 /* Foundation.framework in Frameworks */,
 				846F677017E064CE00CCBAA0 /* CoreGraphics.framework in Frameworks */,
+				8489CC2C17E10ED600C215D2 /* FacebookSDK.framework in Frameworks */,
+				8489CC3417E1224B00C215D2 /* libFlurry_4.2.3.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +86,9 @@
 		846F675F17E064CE00CCBAA0 = {
 			isa = PBXGroup;
 			children = (
+				8489CC3717E1227E00C215D2 /* Security.framework */,
+				8489CC3517E1226D00C215D2 /* SystemConfiguration.framework */,
+				8489CA4317E10E3A00C215D2 /* FacebookSDK.framework */,
 				846F677117E064CE00CCBAA0 /* iBragBronze */,
 				846F676A17E064CE00CCBAA0 /* Frameworks */,
 				846F676917E064CE00CCBAA0 /* Products */,
@@ -89,6 +106,7 @@
 		846F676A17E064CE00CCBAA0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8489CC2B17E10ED600C215D2 /* FacebookSDK.framework */,
 				84BB262F17E07E5700910AC2 /* MessageUI.framework */,
 				846F676B17E064CE00CCBAA0 /* UIKit.framework */,
 				846F676D17E064CE00CCBAA0 /* Foundation.framework */,
@@ -100,6 +118,7 @@
 		846F677117E064CE00CCBAA0 /* iBragBronze */ = {
 			isa = PBXGroup;
 			children = (
+				8489CC3117E1224B00C215D2 /* Flurry */,
 				846F677A17E064CE00CCBAA0 /* AppDelegate.h */,
 				846F677B17E064CE00CCBAA0 /* AppDelegate.m */,
 				846F678317E064CE00CCBAA0 /* ViewController.h */,
@@ -129,6 +148,15 @@
 				846F678117E064CE00CCBAA0 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8489CC3117E1224B00C215D2 /* Flurry */ = {
+			isa = PBXGroup;
+			children = (
+				8489CC3217E1224B00C215D2 /* Flurry.h */,
+				8489CC3317E1224B00C215D2 /* libFlurry_4.2.3.a */,
+			);
+			path = Flurry;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +194,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				he,
 			);
 			mainGroup = 846F675F17E064CE00CCBAA0;
 			productRefGroup = 846F676917E064CE00CCBAA0 /* Products */;
@@ -290,10 +319,21 @@
 		846F678C17E064CE00CCBAA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Documents/FacebookSDK\"",
+					"\"$(SRCROOT)/FacebookSDK\"",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iBragBronze/BraggingRightsBronze-Prefix.pch";
 				INFOPLIST_FILE = "iBragBronze/BraggingRightsBronze-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/iBragBronze/Flurry\"",
+				);
 				PRODUCT_NAME = BraggingRightsBronze;
 				WRAPPER_EXTENSION = app;
 			};
@@ -302,10 +342,21 @@
 		846F678D17E064CE00CCBAA0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Documents/FacebookSDK\"",
+					"\"$(SRCROOT)/FacebookSDK\"",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iBragBronze/BraggingRightsBronze-Prefix.pch";
 				INFOPLIST_FILE = "iBragBronze/BraggingRightsBronze-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/iBragBronze/Flurry\"",
+				);
 				PRODUCT_NAME = BraggingRightsBronze;
 				WRAPPER_EXTENSION = app;
 			};
