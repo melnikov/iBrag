@@ -33,6 +33,7 @@
 		8489CC4017E1276600C215D2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8489CC3F17E1276600C215D2 /* QuartzCore.framework */; };
 		8489CC4217E1278900C215D2 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8489CC4117E1278900C215D2 /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		8489CC4417E1279300C215D2 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8489CC4317E1279300C215D2 /* StoreKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		848C8DDA17E25F3600CCC915 /* BraggingRightsBronze-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 846F677317E064CE00CCBAA0 /* BraggingRightsBronze-Info.plist */; };
 		84A4DCC817E1DDA600E75D27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 846F677717E064CE00CCBAA0 /* main.m */; };
 		84A4DCC917E1DDA600E75D27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 846F677B17E064CE00CCBAA0 /* AppDelegate.m */; };
 		84A4DCCA17E1DDA600E75D27 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846F678417E064CE00CCBAA0 /* ViewController.m */; };
@@ -179,14 +180,14 @@
 		8489CC3F17E1276600C215D2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		8489CC4117E1278900C215D2 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		8489CC4317E1279300C215D2 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		848C8DDB17E25FB300CCC915 /* BraggingRightsBlack-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BraggingRightsBlack-Info.plist"; sourceTree = SOURCE_ROOT; };
+		848C8DDC17E25FB300CCC915 /* BraggingRightsGold-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BraggingRightsGold-Info.plist"; sourceTree = SOURCE_ROOT; };
+		848C8DDD17E25FB300CCC915 /* BraggingRightsPlatinum-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BraggingRightsPlatinum-Info.plist"; sourceTree = SOURCE_ROOT; };
+		848C8DDE17E25FB300CCC915 /* BraggingRightsSilver-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BraggingRightsSilver-Info.plist"; sourceTree = SOURCE_ROOT; };
 		84A4DCE917E1DDA600E75D27 /* iBrag copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iBrag copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		84A4DCEA17E1DDA600E75D27 /* BraggingRightsBlack-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "BraggingRightsBlack-Info.plist"; path = "/Users/admin/projects/iBrag/BraggingRightsBlack-Info.plist"; sourceTree = "<absolute>"; };
 		84A4DD0E17E1E5AF00E75D27 /* BraggingRightsBlack copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BraggingRightsBlack copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		84A4DD0F17E1E5AF00E75D27 /* BraggingRightsSilver-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "BraggingRightsSilver-Info.plist"; path = "/Users/admin/projects/iBrag/BraggingRightsSilver-Info.plist"; sourceTree = "<absolute>"; };
 		84A4DD3317E1E5B300E75D27 /* BraggingRightsBlack copy copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BraggingRightsBlack copy copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		84A4DD3417E1E5B400E75D27 /* BraggingRightsPlatinum-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "BraggingRightsPlatinum-Info.plist"; path = "/Users/admin/projects/iBrag/BraggingRightsPlatinum-Info.plist"; sourceTree = "<absolute>"; };
 		84A4DD7C17E1E63200E75D27 /* iBrag copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iBrag copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		84A4DD7D17E1E63200E75D27 /* BraggingRightsGold-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "BraggingRightsGold-Info.plist"; path = "/Users/admin/projects/iBrag/BraggingRightsGold-Info.plist"; sourceTree = "<absolute>"; };
 		84BB262F17E07E5700910AC2 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -348,11 +349,11 @@
 		846F677217E064CE00CCBAA0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				848C8DDB17E25FB300CCC915 /* BraggingRightsBlack-Info.plist */,
+				848C8DDC17E25FB300CCC915 /* BraggingRightsGold-Info.plist */,
+				848C8DDD17E25FB300CCC915 /* BraggingRightsPlatinum-Info.plist */,
+				848C8DDE17E25FB300CCC915 /* BraggingRightsSilver-Info.plist */,
 				846F677317E064CE00CCBAA0 /* BraggingRightsBronze-Info.plist */,
-				84A4DCEA17E1DDA600E75D27 /* BraggingRightsBlack-Info.plist */,
-				84A4DD0F17E1E5AF00E75D27 /* BraggingRightsSilver-Info.plist */,
-				84A4DD3417E1E5B400E75D27 /* BraggingRightsPlatinum-Info.plist */,
-				84A4DD7D17E1E63200E75D27 /* BraggingRightsGold-Info.plist */,
 				846F677417E064CE00CCBAA0 /* InfoPlist.strings */,
 				846F677717E064CE00CCBAA0 /* main.m */,
 				846F677917E064CE00CCBAA0 /* iBrag-Prefix.pch */,
@@ -531,6 +532,7 @@
 				846F679517E06F1E00CCBAA0 /* blueArrow.png in Resources */,
 				8489CA3F17E106F500C215D2 /* helveticaneuecyrthin.ttf in Resources */,
 				8489CC3E17E1267800C215D2 /* README.md in Resources */,
+				848C8DDA17E25F3600CCC915 /* BraggingRightsBronze-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
