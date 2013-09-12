@@ -18,8 +18,22 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     [Flurry setCrashReportingEnabled:YES];
-    [Flurry startSession:@"YCHBCZMQJQPS68N42HMS"]; //bronze
     
+	NSString * flurryKey;
+	
+#ifdef BLACK
+	flurryKey = @"H65TQ8N5XFJ53TQF5W6J"; //black
+#elif BRONZE
+	flurryKey = @"YCHBCZMQJQPS68N42HMS"; //bronze
+#elif SILVER
+	flurryKey = @"HRJNRB7D6Y2VS89ZKXMW"; //silver
+#elif PLATINUM
+	flurryKey = @"8DTNKPT7NR465JQX5NZM"; //platinum
+#elif GOLD
+	flurryKey = @"5ZM3XX65W596XQCRH33Z"; //gold
+#endif
+	
+	[Flurry startSession:flurryKey];
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
@@ -49,9 +63,23 @@
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
     Chartboost *cb = [Chartboost sharedChartboost];
-    
-    cb.appId = @"522ce73b17ba47ba1d00000b"; //bronze
+	
+#ifdef BLACK
+	cb.appId = @"522ce6d917ba47221e000003"; //black
+    cb.appSignature = @"8c6b8c877c6f41a04d49598997f8b05dea45d045"; //black
+#elif BRONZE
+	cb.appId = @"522ce73b17ba47ba1d00000b"; //bronze
     cb.appSignature = @"b1a67bccc3decdada04d14e898c76016baf33b7c"; //bronze
+#elif SILVER
+	cb.appId = @"522ce72816ba47e90b000007"; //silver
+    cb.appSignature = @"ddd7b2c9e0889959eef0ec6c1346541870079f1e"; //silver
+#elif PLATINUM
+	cb.appId = @"522ce6f016ba47f70b00000b"; //platinum
+    cb.appSignature = @"1359983ca71286d023a4016726a8711b07086d46"; //platinum
+#elif GOLD
+	cb.appId = @"522ce71716ba47880c000029"; //gold
+    cb.appSignature = @"df9faa6436d45b3c8fefca25192d783e357843a6"; //gold
+#endif
     
     // Required for use of delegate methods. See "Advanced Topics" section below.
     //cb.delegate = self;

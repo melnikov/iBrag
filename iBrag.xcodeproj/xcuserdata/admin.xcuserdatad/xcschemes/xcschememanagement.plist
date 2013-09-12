@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>BraggingRightsBlack.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>BraggingRightsBronze.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>BraggingRightsGold.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>BraggingRightsPlatinum.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>BraggingRightsSilver.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>846F676717E064CE00CCBAA0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>84A4DCC617E1DDA600E75D27</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>84A4DCEB17E1E5AF00E75D27</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>84A4DD1017E1E5B300E75D27</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>84A4DD3517E1E5F800E75D27</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>84A4DD5917E1E63200E75D27</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -8,11 +8,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "iBragBronze/ViewController.m"
-         timestampString = "400630730.586713"
+         timestampString = "400683156.904807"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "28"
-         endingLineNumber = "28"
+         startingLineNumber = "67"
+         endingLineNumber = "67"
          landmarkName = "-buttonFacebookPressed"
          landmarkType = "5">
       </FileBreakpoint>
@@ -21,11 +21,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "iBragBronze/ViewController.m"
-         timestampString = "400630730.586713"
+         timestampString = "400683156.904807"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "36"
-         endingLineNumber = "36"
+         startingLineNumber = "75"
+         endingLineNumber = "75"
          landmarkName = "-buttonEmailPressed"
          landmarkType = "5">
       </FileBreakpoint>
