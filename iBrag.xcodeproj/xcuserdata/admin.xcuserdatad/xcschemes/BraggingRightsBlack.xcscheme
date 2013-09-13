@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "84A4DCC617E1DDA600E75D27"
-               BuildableName = "iBrag copy.app"
+               BuildableName = "BraggingRightsBlack.app"
                BlueprintName = "BraggingRightsBlack"
                ReferencedContainer = "container:iBrag.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "84A4DCC617E1DDA600E75D27"
-            BuildableName = "iBrag copy.app"
+            BuildableName = "BraggingRightsBlack.app"
             BlueprintName = "BraggingRightsBlack"
             ReferencedContainer = "container:iBrag.xcodeproj">
          </BuildableReference>
@@ -52,7 +52,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "84A4DCC617E1DDA600E75D27"
-            BuildableName = "iBrag copy.app"
+            BuildableName = "BraggingRightsBlack.app"
             BlueprintName = "BraggingRightsBlack"
             ReferencedContainer = "container:iBrag.xcodeproj">
          </BuildableReference>
@@ -70,7 +70,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "84A4DCC617E1DDA600E75D27"
-            BuildableName = "iBrag copy.app"
+            BuildableName = "BraggingRightsBlack.app"
             BlueprintName = "BraggingRightsBlack"
             ReferencedContainer = "container:iBrag.xcodeproj">
          </BuildableReference>

@@ -5,11 +5,22 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>Bragging Rights Bronze</string>
+	<string>Brag Bronze</string>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIcons</key>
+	<dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>icon57.png</string>
+				<string>icon144.png</string>
+			</array>
+		</dict>
+	</dict>
 	<key>CFBundleIdentifier</key>
-	<string>com.braggingrights.bronze</string>
+	<string>com.robinapps.braggingrightsbronze</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -27,14 +38,14 @@
 			<string></string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>fb391684824291063</string>
+				<string>fb1374831912753075</string>
 			</array>
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>FacebookAppID</key>
-	<string>391684824291063</string>
+	<string>1374831912753075</string>
 	<key>FacebookDisplayName</key>
 	<string>Bragging Rights Bronze</string>
 	<key>LSRequiresIPhoneOS</key>
@@ -43,6 +54,8 @@
 	<array>
 		<string>helveticaneuecyrthin.ttf</string>
 	</array>
+	<key>UILaunchImageFile~iphone</key>
+	<string>Default.png</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
