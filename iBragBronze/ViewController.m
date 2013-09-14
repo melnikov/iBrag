@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "AppDelegate.h"
-#import "FacebookSDK/FacebookSDK.h"
+#import "/Users/admin/Projects/brag/iBragBronze/Frameworks/FacebookSDK.framework/Headers/FacebookSDK.h"
 #import "Flurry.h"
 #import "LabelThin.h"
 
@@ -21,6 +21,8 @@
 @interface ViewController ()
 {
 	IBOutlet LabelThin *labelVersionType;
+    IBOutlet LabelThin *labelSyllable1;
+    IBOutlet LabelThin *labelSyllable2;
 	IBOutlet UIButton *buttonOne;
 	IBOutlet UIButton *buttonTwo;
 	IBOutlet UIButton *buttonThree;
@@ -40,33 +42,33 @@
 	
 #ifdef BLACK
 	labelVersionType.text = @"Black";
-	labelVersionType.textColor = blackColor;
+	labelSyllable1.textColor = labelSyllable2.textColor = labelVersionType.textColor = blackColor;
 	[buttonOne setTitle:@"Bronze" forState:UIControlStateNormal];
 	[buttonOne setTitleColor:bronzeColor forState:UIControlStateNormal];
 	urlString = @"https://itunes.apple.com/us/app/bragging-rights-black/id705832378?ls=1&mt=8"; //black
 	appID = @"705832378";
 #elif BRONZE
 	labelVersionType.text = @"Bronze";
-	labelVersionType.textColor = bronzeColor;
+	labelSyllable1.textColor = labelSyllable2.textColor =labelVersionType.textColor = bronzeColor;
 	urlString = @"https://itunes.apple.com/us/app/bragging-rights-bronze/id705824522?ls=1&mt=8"; //bronze
 	appID = @"705824522";
 #elif SILVER
 	labelVersionType.text = @"Silver";
-	labelVersionType.textColor = silverColor;
+	labelSyllable1.textColor = labelSyllable2.textColor = labelVersionType.textColor = silverColor;
 	[buttonFour setTitle:@"Bronze" forState:UIControlStateNormal];
 	[buttonFour setTitleColor:bronzeColor forState:UIControlStateNormal];
 	urlString = @"https://itunes.apple.com/us/app/bragging-rights-silver/id705832421?ls=1&mt=8"; //silver
 	appID = @"705832421";
 #elif PLATINUM
 	labelVersionType.text = @"Platinum";
-	labelVersionType.textColor = platinumColor;
+	labelSyllable1.textColor = labelSyllable2.textColor = labelVersionType.textColor = platinumColor;
 	[buttonTwo setTitle:@"Bronze" forState:UIControlStateNormal];
 	[buttonTwo setTitleColor:bronzeColor forState:UIControlStateNormal];
 	urlString = @"https://itunes.apple.com/us/app/bragging-rights-platinum/id705832495?ls=1&mt=8"; //platinum
 	appID = @"705832495";
 #elif GOLD
 	labelVersionType.text = @"Gold";
-	labelVersionType.textColor = goldColor;
+	labelSyllable1.textColor = labelSyllable2.textColor = labelVersionType.textColor = goldColor;
 	[buttonThree setTitle:@"Bronze" forState:UIControlStateNormal];
 	[buttonThree setTitleColor:bronzeColor forState:UIControlStateNormal];
 	urlString = @"https://itunes.apple.com/us/app/bragging-rights-gold/id705832538?ls=1&mt=8"; //gold

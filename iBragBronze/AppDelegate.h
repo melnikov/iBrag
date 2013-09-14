@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <FacebookSDK/FacebookSDK.h>
+#import "/Users/admin/Projects/brag/iBragBronze/Frameworks/FacebookSDK.framework/Headers/FacebookSDK.h"
 
 @class ViewController;
 
