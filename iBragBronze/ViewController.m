@@ -15,7 +15,7 @@
 #define blackColor [UIColor blackColor]
 #define bronzeColor RGB(234, 170, 61)
 #define silverColor RGB(76, 91, 94)
-#define platinumColor RGB(148, 148, 148)
+#define platinumColor RGB(235, 235, 245)
 #define goldColor RGB(255, 203, 67)
 
 @interface ViewController ()
@@ -94,7 +94,7 @@
 		
 		picker.mailComposeDelegate = self;
 		[picker setToRecipients:[NSArray array]];
-		[picker setSubject:[NSString stringWithFormat:@"I just bough Bragging Rights %@", labelVersionType.text]];
+		[picker setSubject:[NSString stringWithFormat:@"I just bought Bragging Rights %@!", labelVersionType.text]];
 		[picker setMessageBody:message isHTML:YES];
 		picker.modalPresentationStyle = UIModalPresentationFormSheet;
 		picker.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
@@ -162,8 +162,8 @@
 
 - (void)postToFacebook
 {
-    NSDictionary* params = @{@"name": [NSString stringWithFormat:@"I just bought Bragging Rights %@", labelVersionType.text],
-                             @"caption": @"get one for yourself too",
+    NSDictionary* params = @{@"name": [NSString stringWithFormat:@"I just bought Bragging Rights %@!", labelVersionType.text],
+                             @"caption": @"Get one for yourself too!",
                              //@"description": @"get one for yourself too",
                              @"link": urlString};
     
