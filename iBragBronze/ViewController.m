@@ -35,6 +35,21 @@
 
 @implementation ViewController
 
+- (id)init
+{
+    if ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad)
+    {
+        self = [super initWithNibName:@"ViewControllerIpad" bundle:nil];
+    }
+    else
+    {
+        self = [super initWithNibName:@"ViewController" bundle:nil];
+    }
+    if (self) { /* initialize other ivars */ }
+    return self;
+}
+
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];

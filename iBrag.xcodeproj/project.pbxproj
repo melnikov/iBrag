@@ -26,6 +26,11 @@
 		848C8DF217E8EA3300CCC915 /* Icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 848C8DF117E8EA3300CCC915 /* Icon-120.png */; };
 		848C8DF417E8EA4000CCC915 /* Icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 848C8DF317E8EA4000CCC915 /* Icon-120.png */; };
 		848C8DF617E8EA4F00CCC915 /* Icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 848C8DF517E8EA4F00CCC915 /* Icon-120.png */; };
+		848C8DF817E8F95800CCC915 /* ViewControllerIpad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848C8DF717E8F95700CCC915 /* ViewControllerIpad.xib */; };
+		848C8DF917E8F95800CCC915 /* ViewControllerIpad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848C8DF717E8F95700CCC915 /* ViewControllerIpad.xib */; };
+		848C8DFA17E8F95800CCC915 /* ViewControllerIpad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848C8DF717E8F95700CCC915 /* ViewControllerIpad.xib */; };
+		848C8DFB17E8F95800CCC915 /* ViewControllerIpad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848C8DF717E8F95700CCC915 /* ViewControllerIpad.xib */; };
+		848C8DFC17E8F95800CCC915 /* ViewControllerIpad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848C8DF717E8F95700CCC915 /* ViewControllerIpad.xib */; };
 		84A4DCC817E1DDA600E75D27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 846F677717E064CE00CCBAA0 /* main.m */; };
 		84A4DCC917E1DDA600E75D27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 846F677B17E064CE00CCBAA0 /* AppDelegate.m */; };
 		84A4DCCA17E1DDA600E75D27 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846F678417E064CE00CCBAA0 /* ViewController.m */; };
@@ -189,6 +194,7 @@
 		848C8DF117E8EA3300CCC915 /* Icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-120.png"; sourceTree = "<group>"; };
 		848C8DF317E8EA4000CCC915 /* Icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-120.png"; sourceTree = "<group>"; };
 		848C8DF517E8EA4F00CCC915 /* Icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-120.png"; sourceTree = "<group>"; };
+		848C8DF717E8F95700CCC915 /* ViewControllerIpad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewControllerIpad.xib; sourceTree = "<group>"; };
 		84A4DCE917E1DDA600E75D27 /* BraggingRightsBlack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BraggingRightsBlack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A4DD0E17E1E5AF00E75D27 /* BraggingRightsSilver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BraggingRightsSilver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A4DD3317E1E5B300E75D27 /* BraggingRightsPlatinum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BraggingRightsPlatinum.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -392,6 +398,7 @@
 				846F678317E064CE00CCBAA0 /* ViewController.h */,
 				846F678417E064CE00CCBAA0 /* ViewController.m */,
 				846F678617E064CE00CCBAA0 /* ViewController.xib */,
+				848C8DF717E8F95700CCC915 /* ViewControllerIpad.xib */,
 				8489CA4017E108E800C215D2 /* LabelThin.h */,
 				8489CA4117E108E800C215D2 /* LabelThin.m */,
 				84C195A517E3426E0054B7C0 /* Assets */,
@@ -682,6 +689,7 @@
 				84C195E617E342BD0054B7C0 /* icon144.png in Resources */,
 				84C195E717E342BD0054B7C0 /* icon57.png in Resources */,
 				848C8DEE17E8EA0A00CCC915 /* Icon-120.png in Resources */,
+				848C8DF817E8F95800CCC915 /* ViewControllerIpad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -704,6 +712,7 @@
 				84C195ED17E342C70054B7C0 /* icon144.png in Resources */,
 				84C195EE17E342C70054B7C0 /* icon57.png in Resources */,
 				848C8DF017E8EA2100CCC915 /* Icon-120.png in Resources */,
+				848C8DF917E8F95800CCC915 /* ViewControllerIpad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -726,6 +735,7 @@
 				84C195F417E342CD0054B7C0 /* icon144.png in Resources */,
 				84C195F517E342CD0054B7C0 /* icon57.png in Resources */,
 				848C8DF217E8EA3300CCC915 /* Icon-120.png in Resources */,
+				848C8DFA17E8F95800CCC915 /* ViewControllerIpad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -748,6 +758,7 @@
 				84C195FB17E342D10054B7C0 /* icon144.png in Resources */,
 				84C195FC17E342D10054B7C0 /* icon57.png in Resources */,
 				848C8DF417E8EA4000CCC915 /* Icon-120.png in Resources */,
+				848C8DFB17E8F95800CCC915 /* ViewControllerIpad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -770,6 +781,7 @@
 				84C1960217E342D50054B7C0 /* icon144.png in Resources */,
 				84C1960317E342D50054B7C0 /* icon57.png in Resources */,
 				848C8DF617E8EA4F00CCC915 /* Icon-120.png in Resources */,
+				848C8DFC17E8F95800CCC915 /* ViewControllerIpad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -923,7 +935,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iBragBronze/iBrag-Prefix.pch";
 				INFOPLIST_FILE = "iBragBronze/Plists/BraggingRightsBronze-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
@@ -934,6 +946,7 @@
 				);
 				OTHER_CFLAGS = "-DBRONZE";
 				PRODUCT_NAME = BraggingRightsBronze;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -951,7 +964,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iBragBronze/iBrag-Prefix.pch";
 				INFOPLIST_FILE = "iBragBronze/Plists/BraggingRightsBronze-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
@@ -966,6 +979,7 @@
 				);
 				PRODUCT_NAME = BraggingRightsBronze;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7F65F770-C7AD-4FB9-83E0-52AD828A532F";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -1011,7 +1025,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iBragBronze/iBrag-Prefix.pch";
 				INFOPLIST_FILE = "iBragBronze/Plists/BraggingRightsBronze-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
@@ -1025,6 +1039,7 @@
 					"-DBRONZE",
 				);
 				PRODUCT_NAME = BraggingRightsBronze;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = AdHoc;
@@ -1312,7 +1327,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iBragBronze/iBrag-Prefix.pch";
 				INFOPLIST_FILE = "iBragBronze/Plists/BraggingRightsGold-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
@@ -1323,6 +1338,7 @@
 				);
 				OTHER_CFLAGS = "-DGOLD";
 				PRODUCT_NAME = BraggingRightsGold;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1340,7 +1356,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iBragBronze/iBrag-Prefix.pch";
 				INFOPLIST_FILE = "iBragBronze/Plists/BraggingRightsGold-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
@@ -1355,6 +1371,7 @@
 				);
 				PRODUCT_NAME = BraggingRightsGold;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7F65F770-C7AD-4FB9-83E0-52AD828A532F";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -1371,7 +1388,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iBragBronze/iBrag-Prefix.pch";
 				INFOPLIST_FILE = "iBragBronze/Plists/BraggingRightsGold-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
@@ -1385,6 +1402,7 @@
 					"-DGOLD",
 				);
 				PRODUCT_NAME = BraggingRightsGold;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = AdHoc;
