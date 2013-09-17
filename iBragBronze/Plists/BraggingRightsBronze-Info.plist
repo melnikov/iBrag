@@ -16,6 +16,7 @@
 			<true/>
 			<key>CFBundleIconFiles</key>
 			<array>
+				<string>Icon-120.png</string>
 				<string>icon57.png</string>
 				<string>icon144.png</string>
 			</array>
