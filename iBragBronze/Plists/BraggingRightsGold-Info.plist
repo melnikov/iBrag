@@ -48,8 +48,6 @@
 	<string>1.0</string>
 	<key>FacebookAppID</key>
 	<string>1374831912753075</string>
-	<key>FacebookDisplayName</key>
-	<string>Bragging Rights Gold</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UIAppFonts</key>

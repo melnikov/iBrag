@@ -160,18 +160,36 @@
 
 #pragma mark - FB Sharing
 
+
 - (void)postToFacebook
 {
-    NSDictionary* params = @{@"name": [NSString stringWithFormat:@"I just bought Bragging Rights %@!", labelVersionType.text],
-                             @"caption": @"Get one for yourself too!",
-                             //@"description": @"get one for yourself too",
-                             @"link": urlString};
-    
-    [FBWebDialogs presentFeedDialogModallyWithSession:nil
-                                           parameters:params
-                                              handler:^(FBWebDialogResult result, NSURL *resultURL, NSError *error) {
-                                                  // handle response or error
-                                              }];
+  FBShareDialogParams *params = [[FBShareDialogParams alloc] init];
+    params.link = [NSURL URLWithString:urlString];
+    BOOL canShare = [FBDialogs canPresentShareDialogWithParams:params];
+    if (canShare) {
+        [FBDialogs presentShareDialogWithLink:[NSURL URLWithString:urlString]
+                                         name:[NSString stringWithFormat:@"I just bought Bragging Rights %@!", labelVersionType.text]
+                                      caption:@"Get one for yourself too!"
+                                  description:@"Get one for yourself too!"
+                                      picture:nil
+                                  clientState:nil
+                                      handler:^(FBAppCall *call, NSDictionary *results, NSError *error) {
+                                            
+                                    }];
+    }
+    else
+    {
+        NSDictionary* params = @{@"name": [NSString stringWithFormat:@"I just bought Bragging Rights %@!", labelVersionType.text],
+                                 @"caption": @"Get one for yourself too!",
+                                 //@"description": @"get one for yourself too",
+                                 @"link": urlString};
+        
+        [FBWebDialogs presentFeedDialogModallyWithSession:nil
+                                               parameters:params
+                                                  handler:^(FBWebDialogResult result, NSURL *resultURL, NSError *error) {
+                                                      // handle response or error
+                                                  }];
+    }
 }
 
 #pragma mark - MFMailComposeViewControllerDelegate

@@ -1184,6 +1184,8 @@
 		84A4DD3017E1E5B300E75D27 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Alexei Melnikov (9D6S4JVQ7H)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Alexei Melnikov (9D6S4JVQ7H)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/FacebookSDK\"",
@@ -1204,6 +1206,8 @@
 				);
 				OTHER_CFLAGS = "-DPLATINUM";
 				PRODUCT_NAME = BraggingRightsPlatinum;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
