@@ -921,6 +921,7 @@
 		846F678D17E064CE00CCBAA0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Yie Lynn Choo (GY6TKK53GU)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/FacebookSDK\"",
@@ -944,6 +945,7 @@
 					"-DBRONZE",
 				);
 				PRODUCT_NAME = BraggingRightsBronze;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7F65F770-C7AD-4FB9-83E0-52AD828A532F";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -1037,6 +1039,7 @@
 		84A4DCE717E1DDA600E75D27 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Yie Lynn Choo (GY6TKK53GU)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/FacebookSDK\"",
@@ -1060,6 +1063,7 @@
 					"-DBLACK",
 				);
 				PRODUCT_NAME = BraggingRightsBlack;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7F65F770-C7AD-4FB9-83E0-52AD828A532F";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -1124,6 +1128,7 @@
 		84A4DD0C17E1E5AF00E75D27 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Yie Lynn Choo (GY6TKK53GU)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/FacebookSDK\"",
@@ -1147,6 +1152,7 @@
 					"-DSILVER",
 				);
 				PRODUCT_NAME = BraggingRightsSilver;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7F65F770-C7AD-4FB9-83E0-52AD828A532F";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -1215,6 +1221,7 @@
 		84A4DD3117E1E5B300E75D27 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Yie Lynn Choo (GY6TKK53GU)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/FacebookSDK\"",
@@ -1238,6 +1245,7 @@
 					"-DPLATINUM",
 				);
 				PRODUCT_NAME = BraggingRightsPlatinum;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7F65F770-C7AD-4FB9-83E0-52AD828A532F";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -1302,6 +1310,7 @@
 		84A4DD7A17E1E63200E75D27 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Yie Lynn Choo (GY6TKK53GU)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/FacebookSDK\"",
@@ -1325,6 +1334,7 @@
 					"-DGOLD",
 				);
 				PRODUCT_NAME = BraggingRightsGold;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7F65F770-C7AD-4FB9-83E0-52AD828A532F";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

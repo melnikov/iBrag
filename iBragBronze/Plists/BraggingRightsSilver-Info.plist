@@ -40,14 +40,14 @@
 			<string></string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>fb1374831912753075</string>
+				<string>fb526232077451059</string>
 			</array>
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>FacebookAppID</key>
-	<string>1374831912753075</string>
+	<string>526232077451059</string>
 	<key>FacebookDisplayName</key>
 	<string>Bragging Rights Silver</string>
 	<key>LSRequiresIPhoneOS</key>
