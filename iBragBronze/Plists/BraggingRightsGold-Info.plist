@@ -2,26 +2,24 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>UILaunchImageFile~ipad</key>
+	<string>Default-Portrait~ipad.png</string>
+	<key>CFBundleIconFiles</key>
+	<array>
+		<string>Icon-72@2x.png</string>
+		<string>Icon-72.png</string>
+		<string>Icon-120.png</string>
+		<string>icon57.png</string>
+		<string>icon144.png</string>
+	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
 	<string>Brag Gold</string>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
-	<key>CFBundleIcons</key>
-	<dict>
-		<key>CFBundlePrimaryIcon</key>
-		<dict>
-			<key>UIPrerenderedIcon</key>
-			<true/>
-			<key>CFBundleIconFiles</key>
-			<array>
-				<string>Icon-120.png</string>
-				<string>icon57.png</string>
-				<string>icon144.png</string>
-			</array>
-		</dict>
-	</dict>
+	<key>UIPrerenderedIcon</key>
+	<true/>
 	<key>CFBundleIdentifier</key>
 	<string>com.robinapps.braggingrightsgold</string>
 	<key>CFBundleInfoDictionaryVersion</key>
